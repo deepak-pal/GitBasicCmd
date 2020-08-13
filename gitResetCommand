@@ -1,0 +1,9 @@
+Reset is used move from current state of perticular state
+Suppose u have some change which are locally done 
+now u switch the branch without staging the changes 
+U gett confilct on one file 
+to remove the confilct u have dicard the change due which file get delete u lost ur local work 
+but the file is not showing 
+in this case u used command 
+reset 
+git reset HEAD --hard
